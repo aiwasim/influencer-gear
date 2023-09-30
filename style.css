@@ -1,0 +1,167 @@
+/* Google CSS */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    padding: 40px 0px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* header style start */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+
+nav .navbar {
+    display: flex;
+    align-items: center;
+}
+
+nav .navbar li {
+    list-style: none;
+}
+
+nav .navbar a,
+.fa-solid {
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+
+/* header style end */
+
+/* banner style start */
+
+.banner {
+    display: flex;
+    align-items: center;
+}
+
+.banner .banner-content {
+    color: #3A3A3A;
+}
+
+.banner .banner-content h1 {
+    font-size: 45px;
+}
+
+.banner .banner-content p {
+    font-size: 16px;
+}
+
+.banner .banner-img {
+    background: url(./images/Circle\ design.svg);
+}
+
+.primary-btn {
+    background: #E02C6D;
+    padding: 15px 40px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+/* banner style end */
+
+/* brand style start */
+
+.brands .brand {
+    display: grid;
+    /* justify-content: space-between; */
+    grid-template-columns: repeat(7, 1fr);
+    padding: 50px;
+}
+
+
+/* brand style end */
+
+/* products style start */
+
+.products .product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #f8f2f2;
+}
+
+.products .product .product-content {
+    margin: 15px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.products .product .product-content h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #3A3A3A;
+}
+
+.products .product .product-content .product-price {
+    font-size: 22px;
+}
+
+.fa-star {
+    color: #FB8200;
+}
+
+.fa-star-half-stroke {
+    color: #FB8200;
+}
+
+.products .product .product-content p {
+    font-size: 14px;
+}
+
+/* products style end */
+
+/* feature style start */
+
+.features {
+    display: flex;
+    align-items: center;
+}
+
+.features .feature-img {}
+
+.features .feature-content {
+    padding: 50px;
+}
+
+/* feature style end */
+
+/* footer style start*/
+
+footer {
+    margin-top: 50px;
+    background-color: #0A0826;
+    text-align: center;
+    color: #fff;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+footer .fa-brands {
+    padding: 0px 10px;
+}
+
+/* footer style end*/
